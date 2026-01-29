@@ -1,0 +1,40 @@
+html{
+    background-color:blueviolet;
+    font-size: 25;
+}
+p{
+    background-color:hotpink;
+    font-size: 30px;
+    /*Fix the links, they dont work*/
+    border: 10px dashed green;
+    text-align:center;
+    padding: 10px 50px;
+    margin: 50px
+    /* 1 value = all sides  */
+
+    /* 2 value: 1st value = top/bottom, 2nd value= left/right */
+    
+    /* 4 values: 1st value is the top, 2nd value is the right, 3rd value is the bottom, 4th value will be the left */
+
+    /* same sintax works for padding works for margin */
+
+
+
+}
+
+h1{
+    color: rgba(152, 209, 167, 0.803)
+    text-align:center;
+    padding: 20px;
+}
+/* we preface classes with . and ids with # */
+.special {
+    background-color:mediumorchid;
+    font-size:50px;
+    border-radius: 100%;
+}
+
+.center-text {
+    text-align:center;
+    padding: 20px;
+}
