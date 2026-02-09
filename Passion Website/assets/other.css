@@ -1,0 +1,15 @@
+html{
+
+    background-color: darkseagreen;
+    font-size: 100;
+    text-align: center;
+
+}
+p{
+    font-size: 25px;
+    /*Fix the links, they dont work*/
+    border: 5px solid green;
+    text-align:center;
+    padding: 10px 50px;
+    margin: 50px
+}

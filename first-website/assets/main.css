@@ -24,8 +24,6 @@ p{
 
 h1{
     color: rgba(152, 209, 167, 0.803)
-    text-align:center;
-    padding: 20px;
 }
 /* we preface classes with . and ids with # */
 .special {
