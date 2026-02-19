@@ -50,6 +50,13 @@
 .absolute{
     background-color: blue;
     position:absolute;
-    top: 60px;
-    right: 40px;
+    top: 0;
+    right: -100px;
+    margin:0;
+}
+
+.sticky {
+    background-color: brown;
+    position:sticky;
+    top:38px;
 }

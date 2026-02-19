@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+.block {
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inline {
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    display: inline-block;
+}
+
+.container {
+    background-color: aqua;
+    padding: 20px;
+    display:flex;
+    flex-direction:row;
+
+    /* felx-direction will determine the main-axis:width: 
+    row=morizontal main 
+    column=vertical main */
+
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:flex-end;
+    align-content:flex-start;
+    gap: 10px;
+}
+
+.item {
+    background-color: blueviolet;
+    padding: 10px;
+    border:1px solid;
+    width: 100px;
+}
+.special {
+    background-color: hotpink;
+    order:-1;
+}

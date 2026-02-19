@@ -1,0 +1,27 @@
+*{
+    box-sizing:border-box;
+}
+.main-container {
+    background-color: aquamarine;
+    padding:10px;
+    height:600px;
+
+    display:flex;
+    flex-direction:column;
+}
+.top{
+    background-color: black;
+    height: 20%;
+    flex-direction: row;
+    display:flex;
+    gap:10px;
+
+}
+.top-item{
+    background-color: blue;
+    width: 100%;
+}
+.bottom{
+    background-color: beige;
+    height:80%;
+}
