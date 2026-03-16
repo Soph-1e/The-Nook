@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.body{
+    margin: top 0;
+}
+.container{
+        background-color: palevioletred;
+        height: 100vh;
+        /* width:50vw; */
+        display:flex;
+        justify-content: space-evenly;
+        align-items:center;
+        position: relative;
+        overflow: hidden;
+
+        animation:blink 4s infinite alternate;
+    }
+
+ .circle{
+        background-color: aquamarine;
+        width: 100px;
+        height:100px;
+        border-radius:100%;
+        position: relative;
+        animation:move 4s alternate ease-in-out infinite;
+    }
+        @keyframes move {
+  0% {background-color: azure; left:0px; top:0px;}
+  25%  {background-color:lightgoldenrodyellow; left:200px; top:0px;}
+  50%  {background-color:lightblue; left:200px; top:200px;}
+  75%  {background-color:palegreen; left:0px; top:200px;}
+  100% {background-color: pink; left:0px; top:0px;}
+    }
+
+.opposite{
+        background-color: aquamarine;
+        width: 100px;
+        height:100px;
+        border-radius:100%;
+        position: relative;
+        animation:under 4s alternate ease-in-out infinite;
+    }
+
+    @keyframes under {
+  0%   {background-color:azure; left:10px; top:10px;}
+  25%  {background-color:lightgoldenrodyellow; left:200px; top:10px;}
+  50%  {background-color:lightblue; left:200px; top:200px;}
+  75%  {background-color:palegreen; left:10px; top:200px;}
+  100% {background-color:pink; left:10px; top:10px;}
+}
+
+.box{
+        background-color: aquamarine;
+        width: 100px;
+        height:100px;
+        border-radius:100%;
+        position: relative;
+        animation:over 4s alternate ease-in-out infinite;
+    }
+
+    @keyframes over {
+  0%   {background-color:azure; left:20px; top:20px;}
+  25%  {background-color:lightgoldenrodyellow; left:200px; top:20px;}
+  50%  {background-color:lightblue; left:200px; top:200px;}
+  75%  {background-color:palegreen; left:20px; top:200px;}
+  100% {background-color:pink; left:20px; top:20px;}
+  }
+
+.join {
+    width: 90vw;
+}
+
+ .open{
+        background-color: aquamarine;
+        width: 100px;
+        height:100px;
+        border-radius:100%;
+        position: relative;
+        animation:move 4s alternate ease-in-out infinite;
+    }
+    @keyframes move{
+     0% {background-color: azure; left:0px; top:0px;}
+  25%  {background-color:lightgoldenrodyellow; left:200px; top:0px;}
+  50%  {background-color:lightblue; left:200px; top:200px;}
+  75%  {background-color:palegreen; left:0px; top:200px;}
+  100% {background-color: pink; left:0px; top:0px;}
+    }
+
+.close{
+        background-color: aquamarine;
+        width: 100px;
+        height:100px;
+        border-radius:100%;
+        position: relative;
+        animation:under 4s alternate ease-in-out infinite;
+    }
+   @keyframes under {
+  0%   {background-color:azure; left:10px; top:10px;}
+  25%  {background-color:lightgoldenrodyellow; left:200px; top:10px;}
+  50%  {background-color:lightblue; left:200px; top:200px;}
+  75%  {background-color:palegreen; left:10px; top:200px;}
+  100% {background-color:pink; left:10px; top:10px;}
+}
+
+   
+
+
