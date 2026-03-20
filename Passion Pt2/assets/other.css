@@ -1,0 +1,17 @@
+html{
+    body{
+    background-image: url("photos/wallpaper.jpg");
+    background-color: pink;
+    font-size: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+    p{
+    font-size: 25px;
+    /*Fix the links, they dont work*/
+    border: 5px dotted plum;
+    text-align:center;
+    padding: 10px 50px;
+    margin: 50px
+}
+}
