@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width:100%;
+}
+
+body{
+    background-color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+    max-width:1100px;aq2
+    margin: 50px auto;
+}
+
+header, .left, .center, .right, footer{
+    border:1px solid;
+    padding: 20px;
+}
+
+header, footer{
+    text-align:center;
+}
+
+main{
+    display:flex;
+    gap: 10px;
+}
+
+.left,.right{
+    width:25%;
+
+}
+
+.center{
+    width: 50%;
+}
+
+/* min-width=moble-first */
+
+/* for mobile-first, we want our media quaries to increase in pixle size as we move down our css document */
+
+/* max-width = desktop-first */
+/* for desktop-first, we want our media queries to decrease in pixle size as we mobe down our css document */
+
+/* tablet screen size */
+
+@media screen and (max-width:100px){
+    body{
+        background-color: pink;
+    }
+
+    main {
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+   
+    .left {
+        width:100%;
+    }
+
+    .center, .right{
+        width:calc(50%-5px);
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: lemonchiffon;
+        font-size:200%;
+
+    }
+
+    .center, .right{
+        width:100%;
+    }
+
+
+}
