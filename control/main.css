@@ -1,66 +1,70 @@
-* {
-    box-sizing: border-box;
+ *{
+    box-sizing:border-box;
+}
+
+#body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color: pink;
 }
 
-    button{
-     padding: 10px 15px;
-     max-width: 100%;
-     width:auto;
-     cursor: grabbing;
-    }
-
-    .buttons{
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-        padding: 10px;
-        width: 100%;
-        background-color: pink;
-        color:palevioletred;
-        transition: 0.3s;
-    }
-
-    .button:hover{
-        background-color: plum;
-        color: white;
-        cursor: grabbing
-    }
-
-    head{
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        
-    }
-    
-
- /* img{
-    width: 500px;
-    height:auto;
-} */
-
-/* .main {
-    background-color: pink;
-      /* border: dotted plum; */
-
-/* 
-.body {
-    background-color: pink;
-      /* border: dotted plum; */
- */ */
-
-.doll {
-width: 150px;
-position: fixed;
-bottom: 20px;
-right: 10px;
+.return {
+  /* background:lightgray; */
+  border: 2px dotted pink;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-/* .sets {
-    width: 150px;
-    position: fixed;
-    bottom:20px;
-    right:10px;
-} */
+.avatar {
+  background: lightblue;
+  margin: 20px auto;
+  height: 200px;
+  width: 100px;
+  position: relative;
+}
 
+.draggable {
+  z-index: 1;
+}
 
+.avatar .draggable {
+  position: absolute;
+  display: none;
+}
+
+.black {
+  background: pink;
+  width: 110px;
+  height: 80px;
+}
+
+.avatar .black {
+  bottom: 10px;
+  left: -5px;
+}
+
+.cottage {
+  background: pink;
+  width: 100px;
+  height: 50px;
+}
+
+.avatar .cottage {
+  bottom: 90px;
+  left: 0;
+}
+
+.pink {
+  background: pink;
+  width: 130px;
+  height: 30px;
+}
+
+.avatar .pink {
+  top: 0;
+  left: -15px;
+}

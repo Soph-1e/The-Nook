@@ -5,17 +5,17 @@ $(".draggable").draggable({
 $(".avatar").droppable({
   accept: ".draggable",
   drop: function (event, ui) {
-    if ($(ui.draggable).hasClass("pants")) {
+    if ($(ui.draggable).hasClass("black")) {
       $(ui.draggable).hide();
-      $(".avatar .pants").show();
+      $(".avatar .black").show();
     }
-    if ($(ui.draggable).hasClass("shirt")) {
+    if ($(ui.draggable).hasClass("cottage")) {
       $(ui.draggable).hide();
-      $(".avatar .shirt").show();
+      $(".avatar .cottage").show();
     }
-    if ($(ui.draggable).hasClass("hat")) {
+    if ($(ui.draggable).hasClass("pink")) {
       $(ui.draggable).hide();
-      $(".avatar .hat").show();
+      $(".avatar .pink").show();
     }
   },
 });
@@ -23,17 +23,17 @@ $(".avatar").droppable({
 $(".return").droppable({
   accept: ".draggable",
   drop: function (event, ui) {
-    if ($(ui.draggable).hasClass("pants")) {
+    if ($(ui.draggable).hasClass("black")) {
       $(ui.draggable).hide();
-      $(".return .pants").show();
+      $(".return .black").show();
     }
-    if ($(ui.draggable).hasClass("shirt")) {
+    if ($(ui.draggable).hasClass("cotttage")) {
       $(ui.draggable).hide();
-      $(".return .shirt").show();
+      $(".return .cottage").show();
     }
-    if ($(ui.draggable).hasClass("hat")) {
+    if ($(ui.draggable).hasClass("pink")) {
       $(ui.draggable).hide();
-      $(".return .hat").show();
+      $(".return .pink").show();
     }
   },
 });
