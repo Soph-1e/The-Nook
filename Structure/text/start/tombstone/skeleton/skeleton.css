@@ -6,27 +6,11 @@ body{
     background-color: black;
 }
 
-
-#box{
+#skeleton{
     display:flex;
     justify-content: center;
     align-items: center;
     width: 1500px;
     height: 600px;
     background-color: black;
-}
-
-#angel{
-    width: 500px;
-    height: 500px;
-}
-
-#crypt{
-    width: 500px;
-    height: 500px;
-}
-
-#skull{
-    width: 500px;
-    height: 500px;
 }
