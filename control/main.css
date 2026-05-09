@@ -9,6 +9,18 @@
     background-color: pink;
 }
 
+
+
+#draggable{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 600px;
+    background-color: pink;
+}
+
 .return {
   /* background:lightgray; */
   border: 2px dotted pink;

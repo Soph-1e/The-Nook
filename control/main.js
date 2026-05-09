@@ -1,6 +1,7 @@
 $(".draggable").draggable({
-  revert: true,
+  revert: false,
 });
+
 
 $(".avatar").droppable({
   accept: ".draggable",
