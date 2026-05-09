@@ -33,7 +33,7 @@ $(".return").droppable({
     }
     if ($(ui.draggable).hasClass("pink")) {
       $(ui.draggable).hide();
-      $(".return .pink").show();
+      $(".return .").show();
     }
   },
 });
