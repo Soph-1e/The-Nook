@@ -1,0 +1,35 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: black;
+}
+
+
+#box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 254, 254);
+}
+
+#angel{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(48, 165, 42);
+}
+
+#crypt{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(247, 4, 4);
+}
+
+#skull{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(73, 42, 165);
+}

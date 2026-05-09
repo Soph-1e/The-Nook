@@ -1,4 +1,9 @@
 html{
-    background-color: palevioletred;
     text-align: center;
 }
+
+body{
+ background-image: url('Forest.png');
+ background-size: cover;
+}
+
